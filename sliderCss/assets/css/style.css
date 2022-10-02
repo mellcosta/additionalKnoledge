@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+}
+
+.container{
+    width: 90%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px #555;
+    border: 2px dotted #444;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 80px;
+    color: #666;
+    text-shadow: 0 20px 18px #444;
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    display: flex;
+    gap: 50px;
+}
+
+#slider figure img{
+    width: 20%;
+    height: 70vh;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -101%;
+    }
+    45% {
+        left: -101%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -304%;
+    }
+    95% {
+        left: -304%;
+    }
+    100% {
+        left: -402%;
+    }
+}
+
+@media screen and (max-width:900px){
+    .container{
+        margin-top: 15em;
+    }
+    h1{
+        font-size: 45px;
+    }
+    #slider figure {
+        gap: 30px;
+    }
+    
+    #slider figure img{
+        height: 80%;
+    }
+    @keyframes slider {
+        0% {
+            left: 0;
+        }
+        20% {
+            left: 0;
+        }
+        25% {
+            left: -105%;
+        }
+        45% {
+            left: -105%;
+        }
+        50% {
+            left: -210%;
+        }
+        70% {
+            left: -210%;
+        }
+        75% {
+            left: -315%;
+        }
+        95% {
+            left: -315%;
+        }
+        100% {
+            left: -420%;
+        }
+    }
+}
+
+@media screen and (max-width:500px){
+    
+    h1{
+        font-size: 25px;
+    }
+    
+    #slider figure img{
+        height: 80%;
+    }
+    @keyframes slider {
+        0% {
+            left: 0;
+        }
+        20% {
+            left: 0;
+        }
+        25% {
+            left: -105%;
+        }
+        45% {
+            left: -105%;
+        }
+        50% {
+            left: -212%;
+        }
+        70% {
+            left: -212%;
+        }
+        75% {
+            left: -325%;
+        }
+        95% {
+            left: -325%;
+        }
+        100% {
+            left: -435%;
+        }
+    }
+}
