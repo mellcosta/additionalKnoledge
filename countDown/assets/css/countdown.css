@@ -5,9 +5,10 @@
 }
 
 body{
-    background: #000 url(../images/4.jpg);
+    background: #000 url(../images/4.jpg) no-repeat;
     background-size: cover;
     background-blend-mode: hard-light;
+    user-select: none;
 }
 
  .container {
@@ -16,7 +17,7 @@ body{
     left: 100px;
     right: 100px;
     bottom: 50px;
-    background: url(../images/4.jpg);
+    background: url(../images/4.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -87,4 +88,35 @@ body{
 
  .countdown #second::before{
     content: 'Seconds';
+ }
+
+ @media screen and (max-width:700px) {
+
+   body{
+      height: 100%;
+  }
+   .container {
+      top: 10vh;
+      left: 20px;
+      right: 20px;
+      bottom: 20vh;
+   }
+
+   .countdown div{
+      width: 65px;
+      height: 60px;
+      line-height: 50px;
+      font-size: 3em;
+      margin: 0 10px;
+   }
+
+   .container h2{
+      font-size: 3em;
+   }
+  
+   .container h2 span{
+      font-size: 20px;
+      margin-bottom: 20px;
+   }
+   
  }

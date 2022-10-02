@@ -4,24 +4,24 @@
 
 ## Check-tags
 
-![checktags](./assets/img/check-tags.PNG)
+[<img src="./assets/img/check-tags.PNG" alt="checktags" width="300px" height="150px" >](https://mellcosta.github.io/additionalKnoledge/check-tags/index.html)
 
 ## Countdown
 
-![countdown](./assets/img/countdown.PNG)
+[<img src="./assets/img/countdown.PNG" alt="countdown" width="300px" height="200px" >](https://mellcosta.github.io/additionalKnoledge/countDown/countdown.html)
 
 ## Navigation Menu
 
-![menu-nav](./assets/img/menu-nav.PNG)
+[<img src="./assets/img/menu-nav.PNG" alt="menu-nav" width="300px" height="200px" >](https://mellcosta.github.io/additionalKnoledge/menu-nav/index.html)
 
 ## Price Range
 
-![range](./assets/img/range.PNG)
+[<img src="./assets/img/range.PNG" alt="price-range" width="300px" height="200px" >](https://mellcosta.github.io/additionalKnoledge/price-range/range.html)
 
 ## Show / Hide Password
 
-![password](./assets/img/password.PNG)
+[<img src="./assets/img/password.PNG" alt="password" width="300px" height="200px" >](https://mellcosta.github.io/additionalKnoledge/show-password/index.html)
 
 ## Slider
 
-![password](./assets/img/slider.PNG)
+[<img src="./assets/img/slider.PNG" alt="" width="300px" height="200px" >](https://mellcosta.github.io/additionalKnoledge/sliderCss/index.html)
